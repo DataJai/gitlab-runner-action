@@ -14,6 +14,10 @@ inputs:
   tag-list:
     description: 'Tag list to bind with the runner'
     required: true
+  url:
+    description: 'URL of the GitLab instance'
+    required: false
+    default: 'https://gitlab.com/'
   docker-image:
     description: 'Docker image used by runner'
     required: false
